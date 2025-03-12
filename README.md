@@ -52,9 +52,9 @@ A modern React application for browsing and viewing images with user authenticat
 2. Install dependencies:
 
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    # or
-   yarn install
+   yarn install --legacy-peer-deps
    ```
 
 3. Create a `.env` file in the root directory:
@@ -163,7 +163,6 @@ The project follows the Atomic Design pattern:
 4. Push to the branch
 5. Open a pull request
 
-
 ## Environment Setup
 
 1. Create a `.env` file in the root directory:
@@ -199,4 +198,3 @@ npm run test:coverage
 # Run tests in CI mode
 npm run test:ci
 ```
-
